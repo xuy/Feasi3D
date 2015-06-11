@@ -31,4 +31,5 @@ ADD test.stl /app/
 ENV LD_LIBRARY_PATH=/usr/local/lib
 
 WORKDIR /app
+COPY feasi3d /app
 RUN python test.py test.stl
