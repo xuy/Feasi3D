@@ -1,0 +1,4 @@
+wheel==0.24.0
+Cython==0.22
+admesh==0.98.4
+wsgiref==0.1.2
